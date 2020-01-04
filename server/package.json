@@ -1,0 +1,22 @@
+{
+  "name": "bushtabs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AsianJohnBoi/bushtabs.git"
+  },
+  "author": "John Santias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AsianJohnBoi/bushtabs/issues"
+  },
+  "homepage": "https://github.com/AsianJohnBoi/bushtabs#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  }
+}
