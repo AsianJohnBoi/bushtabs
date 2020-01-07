@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Tree Tabs",
+    "version": "1.0",
+  
+    "description": "Tab for a tree",
+
+    "chrome_url_overrides" : {
+        "newtab": "index.html"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.mozilla.org/*"],
+        "js": ["getDateTime.js"]
+      }
+    ]  
+  }

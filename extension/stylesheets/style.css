@@ -1,0 +1,39 @@
+#bg {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  background-attachment: fixed; 
+  background-size: cover; 
+  position: absolute; 
+  inset: 0px; 
+  z-index: auto;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#time {
+  /* position: absolute; */
+  margin: 0;
+  font: 150px Helvetica bold, Arial;
+  color: White;
+  text-align: center;
+}
+
+#date {
+  margin: 0;
+  font: 30px Helvetica, Arial;
+  color: White;
+  text-align: center;
+}
+
+#date_time {
+  margin: 0;
+  /* background: yellow; */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
