@@ -22,10 +22,10 @@ async function storePhoto(selected) {
     let t = new photoModel();
 
     t.id = selected.id;
-    t.author = selected.author;
-    t.username = selected.username;
+    t.author = selected.user.name;
+    t.username = selected.user.username;
     t.description = selected.description;
-    t.url = selected.url;
+    t.url = selected.urls.full;
     t.location = selected.location;
 
     t.save(function (err) {
