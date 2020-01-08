@@ -23,7 +23,7 @@ function updateClock() {
     // set the content of the element with the ID time to the formatted string
     document.getElementById('time').innerHTML = time;
     document.getElementById('date').innerHTML = date;
-    console.log(time, date);
+    // console.log(time, date);
 
     // call this function again in 1000ms
     setTimeout(updateClock, 1000);

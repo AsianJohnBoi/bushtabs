@@ -3,11 +3,16 @@ const photoModel = require('../models/photos');
 
 async function checkPhoto(photo) {
     return new Promise((resolve, reject) => {
-        patientModel.find({ id: photo })
+        photoModel.find({ id: photo.id })
             .then(response => {
-                resolve(response);
+                if (response.length == 0) {
+                    resolve(false);
+                } else {
+                    resolve(true);
+                }
             })
             .catch(error => {
+                console.log('error')
                 reject(error);
             })
     })
@@ -28,7 +33,7 @@ async function storePhoto(selected) {
             console.log("Error saving to DB: ", err);
             return err;
         } else {
-            console.log("Saved new patient to DB");
+            console.log("Saved new photo to DB");
         }
     });
 }

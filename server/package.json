@@ -16,8 +16,11 @@
   },
   "homepage": "https://github.com/AsianJohnBoi/bushtabs#readme",
   "dependencies": {
+    "aws-sdk": "^2.599.0",
+    "axios": "^0.19.1",
     "dotenv": "^8.2.0",
-    "mongoose": "^5.8.4",
-    "nodemon": "^2.0.2"
+    "mongoose": "^5.8.5",
+    "nodemon": "^2.0.2",
+    "request-promise": "^4.2.5"
   }
 }
