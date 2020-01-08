@@ -49,7 +49,7 @@ async function selectNewPhoto() {
                     var s3 = new AWS.S3();
                     var params = {
                         Body: buffer,
-                        Bucket: 'bushtabs',
+                        Bucket: process.env.AWS_BUCKET,
                         Key: "images/background.jpg",
                         ACL: 'public-read'
                     }
