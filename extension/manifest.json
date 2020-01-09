@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
-    "name": "Tree Tabs",
-    "version": "1.0",
+    "name": "Bushtabs",
+    "version": "1.1",
   
-    "description": "Tab for a tree",
+    "description": "Bushtabs",
 
     "chrome_url_overrides" : {
         "newtab": "index.html"
