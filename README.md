@@ -46,4 +46,8 @@ The /extension folder is ready to be installed on [firefox](https://developer.mo
 
 ## Problems
 
-Despite completing the basic features, I also encountered a problem publishing to the browser stores as my extension breach security policy for injecting scripts from a 3rd party service. More time and research must be put into this issue. 
+Despite completing the basic features, I also encountered a problem publishing to the browser stores as my extension breach security policy for injecting scripts from 3rd party services. 
+
+One solution in mind is to become an advertising business and create the ads but more time must be put into designing and planning. 
+
+More time and research must be put into this issue. 
